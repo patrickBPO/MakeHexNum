@@ -2,6 +2,8 @@
 'Imports System
 'Imports System.Text
 'Imports System.Security.Cryptography
+
+'{-- Class responsible for construction of Registration Key based on Hardware ID --}
 Public Class clsComputerInfo
     Friend Function GetProcessorId() As String
         Dim strProcessorId As String = String.Empty
